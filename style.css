@@ -1,0 +1,76 @@
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+section {
+  min-height: 572px;
+  max-width: 1330px;
+  margin: 0 auto;
+  box-shadow: 0 0 50px #74727251;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+.guardian h2 {
+  color: #0b0914;
+}
+.matching {
+  position: relative;
+  min-height: 572px;
+  min-width: 400px;
+  padding: 20px;
+}
+.matching h2 {
+  color: #0b0914;
+}
+.matching .boder {
+  position: relative;
+
+  border-bottom: 1px dashed #254;
+}
+.matching div h3 {
+  font-weight: normal;
+  color: #a9a9aa;
+}
+.matching div p {
+  width: Hug (352px);
+  height: Hug (44px);
+  gap: 8px;
+}
+.matching button {
+  position: absolute;
+  border-radius: 13px;
+  background-color: #fff5fa;
+  color: #ff1d89;
+  font-size: 25px;
+  border: none;
+  width: 352px;
+  height: 64px;
+  right: 45px;
+  bottom: 30px;
+}
+.matching .boder {
+  border-bottom: 1px dashed #a9a9aa;
+}
+.matching .dolarmonth {
+  display: flex;
+  align-items: center;
+}
+.matching:hover {
+  border-radius: 20px;
+  background: #0b0641;
+  transform: translateY(-30px);
+  color: white;
+  transition: .7s;
+}
+.matching:hover h2 {
+  color: #fff;
+}
+.matching:hover button {
+  background: #ff1d89;
+  box-shadow: 0 0 20px #ff1d89;
+  color: #fff;
+}
