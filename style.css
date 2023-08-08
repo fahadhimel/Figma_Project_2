@@ -25,6 +25,7 @@ section {
 }
 .matching h2 {
   color: #0b0914;
+  font-size: 35px;
 }
 .matching .boder {
   position: relative;
@@ -34,11 +35,13 @@ section {
 .matching div h3 {
   font-weight: normal;
   color: #a9a9aa;
+  font-size: 25px;
 }
 .matching div p {
   width: Hug (352px);
   height: Hug (44px);
-  gap: 8px;
+  line-height: 25px;
+  font-size: 22px;
 }
 .matching button {
   position: absolute;
@@ -50,14 +53,16 @@ section {
   width: 352px;
   height: 64px;
   right: 45px;
-  bottom: 30px;
+  bottom: 25px;
 }
 .matching .boder {
   border-bottom: 1px dashed #a9a9aa;
 }
 .matching .dolarmonth {
+  position: absolute;
   display: flex;
   align-items: center;
+  bottom: 80px;
 }
 .matching:hover {
   border-radius: 20px;
